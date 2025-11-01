@@ -24,7 +24,6 @@ Practice project for object detection (boats and buoys) — Data Annotation port
 - Average time per image: 40–60 s (depending on object density).
 - Most common errors: including wake in the box, confusing buoys with coastal lampposts.
 
-<<<<<<< HEAD
 ## Uso rápido
 1. Coloca imágenes en `datasets/images/`.
 2. Anota y rellena `annotations/images_coco/sample_coco.json`.
@@ -38,9 +37,3 @@ Las imágenes utilizadas en este proyecto provienen de bancos libres de derechos
 
 No se realiza uso comercial de las imágenes, ni se distribuyen con fines de venta o publicidad.  
 Cada imagen mantiene los derechos originales de sus respectivos autores según las licencias abiertas de dichas plataformas.
-=======
-## Next steps
-- Add `segmentation` (polygons) for boats.
-- Expand classes: `jetski`, `sailboat` vs `motorboat`, `person`.
-- Perform inter-annotator validation (consistency between two annotators).
->>>>>>> 75e4b45d0e908bf202c94ee9985e720c818bdd9b
