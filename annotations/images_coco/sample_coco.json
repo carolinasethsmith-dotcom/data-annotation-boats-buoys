@@ -1,0 +1,31 @@
+{
+  "info": {
+    "description": "Boats & Buoys - Sample COCO",
+    "version": "1.0",
+    "year": 2025,
+    "contributor": "Karol"
+  },
+  "images": [
+    {
+      "id": 2,
+      "file_name": "image_002.jpg",
+      "width": 0,
+      "height": 0
+    }
+  ],
+  "categories": [
+    { "id": 1, "name": "boat", "supercategory": "marine" },
+    { "id": 2, "name": "buoy", "supercategory": "marine" }
+  ],
+  "annotations": [
+    {
+      "id": 2001,
+      "image_id": 2,
+      "category_id": 1,
+      "bbox": [100, 120, 300, 180],
+      "area": 54000,
+      "iscrowd": 0
+    }
+  ]
+}
+

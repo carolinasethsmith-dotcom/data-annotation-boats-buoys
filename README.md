@@ -33,3 +33,11 @@ Practice project for object detection (boats and buoys) — Data Annotation port
 2. Anota y rellena `annotations/images_coco/sample_coco.json`.
 3. Ejecuta `scripts/validate_coco.py` para chequeos básicos.
 4. Pasa QA con `qa/checklists/image_qc_checklist.md` y documenta en `qa/reports/`.
+---
+
+## 📸 Créditos de imágenes
+
+Las imágenes utilizadas en este proyecto provienen de bancos libres de derechos — **Unsplash**, **Pexels** y **Pixabay** — y se emplean únicamente con fines educativos y demostrativos dentro de un entorno de práctica de anotación de datos (*Data Annotation Practice Project*).
+
+No se realiza uso comercial de las imágenes, ni se distribuyen con fines de venta o publicidad.  
+Cada imagen mantiene los derechos originales de sus respectivos autores según las licencias abiertas de dichas plataformas.
