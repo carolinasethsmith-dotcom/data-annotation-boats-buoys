@@ -1,33 +1,30 @@
 # data-annotation-boats-buoys
 Practice project for object detection (boats and buoys) — Data Annotation portfolio example.
-# Data Annotation Practice — Barcos y Boyas (Detección de Objetos)
 
-**Objetivo:** Crear un dataset pequeño y de calidad para detección de objetos (`boat`, `buoy`) con *guidelines* claras, QA y métricas, simulando un flujo profesional similar al de proyectos en plataformas como SuperAnnotate.
+# Data Annotation Practice — Boats and Buoys (Object Detection)
 
-## Clases
-- `1: boat` — Embarcaciones a motor/vela, dinghies, motos de agua (si lo decides), etc.
-- `2: buoy` — Boyas de señalización (cardinales, laterales, de amarre, etc.).
+**Objective:** Create a small, high-quality dataset for object detection (`boat`, `buoy`) with clear guidelines, QA, and metrics, simulating a professional workflow similar to projects on platforms like SuperAnnotate.
 
-> Nota: Si lo prefieres, puedes excluir motos de agua o separarlas como otra clase más adelante.
+## Classes
+- `1: boat` — Motorboats/sailboats, dinghies, jet skis (if you choose), etc.
+- `2: buoy` — Navigation buoys (cardinal, lateral, mooring, etc.).
 
-## Estructura
-- `guidelines/` — Criterios detallados de anotación.
-- `datasets/images/` — Imágenes fuente (50–200 para empezar).
-- `annotations/images_coco/` — Anotaciones en formato COCO.
-- `qa/` — Checklists y reportes de calidad.
-- `project/` — Roadmap, backlog y métricas.
-- `scripts/` — Utilidades de validación.
+> Note: If you prefer, you can exclude jet skis or add them as a separate class later.
 
-## Resultados (ejemplo — actualiza con tus datos reales)
-- 50 imágenes anotadas, 12% con correcciones QA (cajas ligeramente recortadas).
-- Tiempo medio por imagen: 40–60 s (dependiendo de densidad).
-- Errores más comunes: incluir wake/estela en la caja, confundir balizas con farolas costeras.
+## Structure
+- `guidelines/` — Detailed annotation criteria.
+- `datasets/images/` — Source images (50–200 to start).
+- `annotations/images_coco/` — Annotations in COCO format.
+- `qa/` — Checklists and quality reports.
+- `project/` — Roadmap, backlog, and metrics.
+- `scripts/` — Validation utilities.
 
-## Próximos pasos
-- Añadir `segmentation` (polígonos) para barcos.
-- Ampliar clases: `jetski`, `sailboat` vs `motorboat`, `person`.
-- Validación entre dos anotadores (consistencia inter-annotator).
+## Results (example — update with your real data)
+- 50 images annotated, 12% with QA corrections (slightly cropped boxes).
+- Average time per image: 40–60 s (depending on object density).
+- Most common errors: including wake in the box, confusing buoys with coastal lampposts.
 
+<<<<<<< HEAD
 ## Uso rápido
 1. Coloca imágenes en `datasets/images/`.
 2. Anota y rellena `annotations/images_coco/sample_coco.json`.
@@ -41,3 +38,9 @@ Las imágenes utilizadas en este proyecto provienen de bancos libres de derechos
 
 No se realiza uso comercial de las imágenes, ni se distribuyen con fines de venta o publicidad.  
 Cada imagen mantiene los derechos originales de sus respectivos autores según las licencias abiertas de dichas plataformas.
+=======
+## Next steps
+- Add `segmentation` (polygons) for boats.
+- Expand classes: `jetski`, `sailboat` vs `motorboat`, `person`.
+- Perform inter-annotator validation (consistency between two annotators).
+>>>>>>> 75e4b45d0e908bf202c94ee9985e720c818bdd9b
