@@ -63,12 +63,4 @@ Recommended README sections (English)
        ```
        (Note: YOLO uses zero-based class indices; here class 0 corresponds to "Boat".)
 
-Notes and suggestions
-- Make sure the README is entirely in English. If you have an existing README that contains other languages, replace those sections with the English text above or provide parallel translated sections (English first).
-- Confirm whether your label indexing is zero- or one-based and harmonize labels.text and any annotation JSONs accordingly.
-- If you want, I can produce a README tailored to the exact annotation format you use (COCO, YOLO, VOC). To do that I would need either:
-  - the annotation file(s) (e.g., COCO JSON), or
-  - a sample annotation file or a description of the annotation format used.
-
-If you want, I can also create the README file in the repository for you — paste here whether you use COCO, YOLO, or VOC and I will adapt the README examples accordingly.
 
